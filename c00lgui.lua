@@ -16,8 +16,9 @@
 
 --Loader
 
-local GuiScript = loadstring(game:HttpGet("https://raw.githubusercontent.com/CanniLiar/c00lgui-Classic/refs/heads/main/GuiScript.lua", false))()
+local GuiScript = loadstring(game:HttpGet("https://raw.githubusercontent.com/CanniLiar/c00lgui-Classic/refs/heads/main/GuiScript.lua", true))()
 
-local Main = loadstring(game:HttpGet("https://raw.githubusercontent.com/CanniLiar/c00lgui-Classic/refs/heads/main/MainScript.lua", true))()
+local Main = loadstring(game:HttpGet("https://raw.githubusercontent.com/CanniLiar/c00lgui-Classic/refs/heads/main/MainScript.lua", false))()
+
 
 
