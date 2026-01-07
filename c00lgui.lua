@@ -18,4 +18,5 @@
 
 local GuiScript = loadstring(game:HttpGet("https://raw.githubusercontent.com/CanniLiar/c00lgui-Classic/refs/heads/main/GuiScript.lua", false))
 
-local Main = loadstring(game:HttpGet("https://", true))
+local Main = loadstring(game:HttpGet("https://raw.githubusercontent.com/CanniLiar/c00lgui-Classic/refs/heads/main/MainScript.lua", true))
+
